@@ -1,4 +1,18 @@
-countcals
+Countcals
 ==========
 
-A Symfony project created on April 20, 2017, 10:52 am.
+##Endpoints
+
+###/api
+All API calls are at /api 
+
+###/account
+ 
+####Requires
+- token
+
+####Returns:
+- username
+- daily_calories
+
+
