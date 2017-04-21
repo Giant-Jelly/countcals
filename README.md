@@ -1,4 +1,4 @@
-#Countcals
+<h1>Countcals</h1>
 
 
 <table>
@@ -11,12 +11,11 @@
 	<tr>
 		<td>/auth</td>
 		<td>
-			```{
+			`{
 				token: (string)<token>
-			}```
+			}`
 		</td>
 		<td>username, password</td>
 		<td>GET</td>
-			
 	</tr>
 </table>
