@@ -3,22 +3,22 @@ Countcals
 
 ###Endpoints
 
-| Enpoint       | Response                       | Params | Method |
-|---------------|--------------------------------|--------|--------|
-| /auth         | `{   token: (string)<token> }` |        |        |
-| /account      |                                |        |        |
-| /entries      |                                |        |        |
-| /entries/new  |                                |        |        |
-| /entries/{id} |                                |        |        |
-| /entries/{id} |                                |        |        |
-| /entries/{id} |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
-|               |                                |        |        |
+| Enpoint       | Response                           | Params | Method |
+|---------------|------------------------------------|--------|--------|
+| /auth         | `{`   `token: (string)<token>` `}` |        |        |
+| /account      |                                    |        |        |
+| /entries      |                                    |        |        |
+| /entries/new  |                                    |        |        |
+| /entries/{id} |                                    |        |        |
+| /entries/{id} |                                    |        |        |
+| /entries/{id} |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
+|               |                                    |        |        |
 
 | Endpoint | Response                                 | Params                                | Method |
 | -------- | --------                                 | ------                                | ------ |
