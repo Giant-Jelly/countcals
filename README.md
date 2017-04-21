@@ -3,14 +3,29 @@ Countcals
 
 ###Endpoints
 
-| Endpoint | Response | Params | Method |
-| -------- | -------- | ------ | ------ |
-| /auth 
-| ```{
-    token: (string)<token>
-}```
-| username, password 
-| GET |
+| Enpoint       | Response                       | Params | Method |
+|---------------|--------------------------------|--------|--------|
+| /auth         | `{   token: (string)<token> }` |        |        |
+| /account      |                                |        |        |
+| /entries      |                                |        |        |
+| /entries/new  |                                |        |        |
+| /entries/{id} |                                |        |        |
+| /entries/{id} |                                |        |        |
+| /entries/{id} |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+|               |                                |        |        |
+
+| Endpoint | Response                                 | Params                                | Method |
+| -------- | --------                                 | ------                                | ------ |
+| /auth    | `{ `                                     | username, password                    | GET    |
+|          |    `token: (string)<token>`              |
+|          | `}`
+
 
 
 | /account 
