@@ -25,10 +25,30 @@
 		<td>
 			<code>
 			{
-				id: (int)
-				username: (string)
+				id: (int),
+				username: (string),
 				limit: (int)
 			}
+			</code>
+		</td>
+		<td></td>
+		<td>GET</td>
+	</tr>
+	<tr>
+		<td>/entries</td>
+		<td>
+			<code>
+			[
+				{
+					id: (int),
+					timestamp: (timestamp),
+					food: {
+						id: (int),
+						name: (string),
+						calories: (int)
+					}
+				}	
+			]
 			</code>
 		</td>
 		<td></td>
