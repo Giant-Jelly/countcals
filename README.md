@@ -1,71 +1,22 @@
-Countcals
-==========
+#Countcals
 
-###Endpoints
 
 <table>
-
-<tr>
-<td>Hola</td>
-</tr>
+	<tr>
+		<th>Endpoint</th>
+		<th>Response</th>
+		<th>Params</th>
+		<th>Method</th>
+	</tr>
+	<tr>
+		<td>/auth</td>
+		<td>
+			```{
+				token: (string)<token>
+			}```
+		</td>
+		<td>username, password</td>
+		<td>GET</td>
+			
+	</tr>
 </table>
-
-| Enpoint       | Response                           | Params | Method |
-|---------------|------------------------------------|--------|--------|
-| /auth         | {\   token: (string)<token>\ } |        |        |
-| /account      |                                    |        |        |
-| /entries      |                                    |        |        |
-| /entries/new  |                                    |        |        |
-| /entries/{id} |                                    |        |        |
-| /entries/{id} |                                    |        |        |
-| /entries/{id} |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-|               |                                    |        |        |
-
-| Endpoint | Response                                 | Params                                | Method |
-| -------- | --------                                 | ------                                | ------ |
-| /auth    | `{ `                                     | username, password                    | GET    |
-|          |    `token: (string)<token>`              |
-|          | `}`
-
-
-
-| /account 
-| [Object] , Username, Daily Calories 
-| 
-| GET |
-
-
-| /entries 
-| [Array] , food entries per date 
-| date 
-| GET |
-
-
-| /entries/new 
-| [Object], [Integer] user id, food 
-| foodId, timestamp 
-| POST |
-
-
-| /entries/{id} 
-| [Object] , Entry from id 
-| 
-| GET |
-
-
-| /entries/{id} 
-| [Integer] , Entry id 
-| 
-| DELETE |
-
-| /entries/{id} 
-| [Object] , Entry from id 
-| 
-| PUT |
-
