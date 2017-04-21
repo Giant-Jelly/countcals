@@ -51,7 +51,73 @@
 			]
 			</code>
 		</td>
+		<td>date('YYYY-MM-DD')</td>
+		<td>GET</td>
+	</tr>
+	<tr>
+		<td>/entries/new</td>
+		<td>
+			<code>
+			{
+				id: (int),
+				timestamp: (timestamp),
+				food: {
+					id: (int),
+					name: (string),
+					calories: (int)
+				})
+			}
+			</code>
+		</td>
+		<td>date('YYYY-MM-DD'), foodId</td>
+		<td>POST</td>
+	</tr>
+	<tr>
+		<td>/entries/{id}</td>
+		<td>
+			<code>
+			{
+				id: (int),
+				timestamp: (timestamp),
+				food: {
+					id: (int),
+					name: (string),
+					calories: (int)
+				})
+			}
+			</code>
+		</td>
 		<td></td>
 		<td>GET</td>
+	</tr>
+	<tr>
+		<td>/entries/{id}</td>
+		<td>
+			<code>
+			{
+				id: (int),
+				timestamp: (timestamp),
+				food: {
+					id: (int),
+					name: (string),
+					calories: (int)
+				})
+			}
+			</code>
+		</td>
+		<td>date('YYYY-MM-DD'), foodId</td>
+		<td>PUT</td>
+	</tr>
+	<tr>
+		<td>/entries/{id}</td>
+		<td>
+			<code>
+			{
+				id: (int)
+			}
+			</code>
+		</td>
+		<td></td>
+		<td>DELETE</td>
 	</tr>
 </table>
