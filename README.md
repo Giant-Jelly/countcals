@@ -11,9 +11,9 @@
 	<tr>
 		<td>/auth</td>
 		<td>
-			`{
-				token: (string)<token>
-			}`
+			<code>{
+				token: (string)
+			}</code>
 		</td>
 		<td>username, password</td>
 		<td>GET</td>
