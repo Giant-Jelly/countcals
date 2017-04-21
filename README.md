@@ -5,7 +5,7 @@ Countcals
 
 | Enpoint       | Response                           | Params | Method |
 |---------------|------------------------------------|--------|--------|
-| /auth         | `{\   token: (string)<token>\ }` |        |        |
+| /auth         | {\   token: (string)<token>\ } |        |        |
 | /account      |                                    |        |        |
 | /entries      |                                    |        |        |
 | /entries/new  |                                    |        |        |
